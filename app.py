@@ -1,4 +1,3 @@
-from flask import Flask
 from wsgiref.simple_server import make_server
 app = Flask(__name__)
 
