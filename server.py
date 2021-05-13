@@ -1,6 +1,6 @@
-from flask import Flask
+import flask
 from wsgiref.simple_server import make_server
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 @app.route('/api/v1/hello-world-24')
 def hello_world():
