@@ -16,3 +16,7 @@ urllib3==1.25.11
 virtualenv==20.1.0
 virtualenv-clone==0.5.4
 Werkzeug==1.0.1
+
+SQLAlchemy~=1.4.15
+alembic~=1.6.2
+marshmallow~=3.12.1

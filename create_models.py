@@ -3,8 +3,8 @@ from models import *
 Session = sessionmaker(bind=engine)
 session = Session()
 
-user = User(id=8, username="Nanii", firstName="Omaewamou", lastName="Shindeiru", email="animeeee@gmail.com",
-            password="pucpucpuc", phone="+380500783234")
+user = User(id=8, username="Nani", firstName="Omaewamou", lastName="Shindeiru", email="animeeee@gmail.com",
+            password="pu", phone="+380500783234")
 user1 = User(id=0, username="Naruto77", firstName="Naruto", lastName="Uzumaki", email="hokage@gmail.com",
              password="q1w2e3r4t5y6", phone="+380665039186")
 user2 = User(id=10, username="qwewetrt", firstName="oooo", lastName="arara", email="hokage@gmail.com",
